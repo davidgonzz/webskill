@@ -15,7 +15,7 @@
 <body>
     <header>
         <a name="top"></a>
-        <nav class="navbar navbar-expand-sm navbar-light bg-success-subtle">
+        <nav class="navbar navbar-expand-md navbar-light bg-success-subtle">
             <img src="logos/favicon.ico" class="img-fluid" width="4%" alt="">
 
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
@@ -60,94 +60,89 @@
         </nav>
     </header>
     <main>
-        <section class="container">
+        <section class="container pt-4">
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-                <ol class="carousel-indicators" >
-                    <li
-                        data-bs-target="#carouselId"
-                        data-bs-slide-to="0"
-                        class="active"
-                        aria-current="true"
-                        aria-label="First slide"
-                    ></li>
-                    <li
-                        data-bs-target="#carouselId"
-                        data-bs-slide-to="1"
-                        aria-label="Second slide"
-                    ></li>
-                    <li
-                        data-bs-target="#carouselId"
-                        data-bs-slide-to="2"
-                        aria-label="Third slide"
-                    ></li>
-                    <li
-                        data-bs-target="#carouselId"
-                        data-bs-slide-to="3"
-                        aria-label="cuarto slide"
-                    ></li>
-                    <li
-                        data-bs-target="#carouselId"
-                        data-bs-slide-to="4"
-                        aria-label="quinto slide"
-                    ></li>
+                <ol class="carousel-indicators list-unstyled">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                        aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="cuarto slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="quinto slide"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img
-                            src="carrusel/anfibios1.png"
-                            class="w-100 d-block"
-                            alt="First slide"
-                        />
+                        <img src="carrusel/anfibios1.png" class="w-100 d-block" alt="First slide" />
                     </div>
                     <div class="carousel-item">
-                        <img
-                            src="carrusel/aves1.png"
-                            class="w-100 d-block"
-                            alt="Second slide"
-                        />
+                        <img src="carrusel/aves1.png" class="w-100 d-block" alt="Second slide" />
                     </div>
                     <div class="carousel-item">
-                        <img
-                            src="carrusel/mamiferos1.png"
-                            class="w-100 d-block"
-                            alt="Third slide"
-                        />
+                        <img src="carrusel/mamiferos1.png" class="w-100 d-block" alt="Third slide" />
                     </div>
                     <div class="carousel-item">
-                        <img
-                            src="carrusel/peces1.png"
-                            class="w-100 d-block"
-                            alt="cuarto slide"
-                        />
+                        <img src="carrusel/peces1.png" class="w-100 d-block" alt="cuarto slide" />
                     </div>
                     <div class="carousel-item">
-                        <img
-                            src="carrusel/reptiles1.png"
-                            class="w-100 d-block"
-                            alt="quinto slide"
-                        />
+                        <img src="carrusel/reptiles1.png" class="w-100 d-block" alt="quinto slide" />
                     </div>
                 </div>
-                <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselId"
-                    data-bs-slide="prev"
-                >
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselId"
-                    data-bs-slide="next"
-                >
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            
+
+        </section>
+        <section class="container pt-xl-4">
+            <h1 class="text-center">Cátalogo de animales</h1>
+            <h2 class="text-center">Los otros animales de la tierra</h2>
+            <div class="row justify-content-center">
+                <div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 border-0">
+                    <img class="card-img-top img-fluid rounded-circle" src="categorias/anfibios.jpeg" alt="Title" />
+                    <div class="card-body">
+                        <a href="#" type="button" class="btn btn-success fs-5 w-100">
+                            Anfibios
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 border-0">
+                    <img class="card-img-top img-fluid rounded-circle" src="categorias/aves.jpeg" alt="Title" />
+                    <div class="card-body">
+                        <a href="#" type="button" class="btn btn-success fs-5 w-100">
+                            Aves
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 border-0">
+                    <img class="card-img-top img-fluid rounded-circle" src="categorias/maniferos.jpeg" alt="Title" />
+                    <div class="card-body">
+                        <a href="#" type="button" class="btn btn-success fs-5 w-100">
+                            Mámiferos
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 border-0">
+                    <img class="card-img-top img-fluid rounded-circle" src="categorias/peces.jpeg" alt="Title" />
+                    <div class="card-body">
+                        <a href="#" type="button" class="btn btn-success fs-5 w-100">
+                            Peces
+                        </a>
+                    </div>
+                </div>
+                <div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 border-0">
+                    <img class="card-img-top img-fluid rounded-circle" src="categorias/reptiles.jpeg" alt="Title" />
+                    <div class="card-body">
+                        <a href="reptiles.html" type="button" class="btn btn-success fs-5 w-100">
+                            Reptiles
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
